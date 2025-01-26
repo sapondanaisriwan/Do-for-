@@ -4,6 +4,9 @@
 ## วิธีการ Setup Project (โปรดอ่าน)
 
 1. ทำการ[ดาวน์โหลด](https://raysan5.itch.io/raylib/purchase?popup=1)ไลบรารี่ Raylib และทำการติดตั้ง
+
+![Image](https://github.com/user-attachments/assets/aea1859d-2ef7-483a-a273-ac8e31b33041)
+
 2. ทำการโคลนโปรเจคลงมาเครื่องเราโดยใช้คำสั่ง
 
 ```
