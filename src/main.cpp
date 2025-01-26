@@ -10,7 +10,7 @@ int main()
 
     Ball ball;
 
-    InitWindow(screenWidth, screenHeight, "My first RAYLIB program!");
+    InitWindow(screenWidth, screenHeight, "Die for you");
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
