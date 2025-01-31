@@ -10,7 +10,7 @@ int main()
 
     Ball ball;
 
-    InitWindow(screenWidth, screenHeight, "Die for you");
+    InitWindow(screenWidth, screenHeight, "Die for ยาย");
     SetTargetFPS(60);
 
     while (!WindowShouldClose())
