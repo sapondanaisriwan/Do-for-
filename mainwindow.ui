@@ -43,7 +43,7 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <property name="spacing">
-     <number>0</number>
+     <number>2</number>
     </property>
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout1">
@@ -70,7 +70,7 @@
         </property>
         <property name="styleSheet">
          <string notr="true">QFrame{
-rgb(0, 0, 0)
+
 }</string>
         </property>
         <property name="frameShape">
