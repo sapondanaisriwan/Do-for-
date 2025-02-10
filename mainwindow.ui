@@ -55,7 +55,7 @@
       <number>10</number>
      </property>
      <item row="0" column="2">
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="Browse_Button">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -78,7 +78,7 @@
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="Decks_Button">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -101,7 +101,7 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="Add_Button">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -155,7 +155,7 @@
       <number>10</number>
      </property>
      <item row="0" column="2">
-      <widget class="QPushButton" name="pushButton_9">
+      <widget class="QPushButton" name="Ans_Button">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -178,7 +178,7 @@
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="Edit_Button">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
          <horstretch>0</horstretch>
@@ -215,6 +215,51 @@
      </item>
     </layout>
    </widget>
+   <widget class="QLabel" name="picture_display">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>130</y>
+      <width>291</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::Panel</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="card">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>100</y>
+      <width>661</width>
+      <height>360</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::Panel</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>card</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>gridLayoutWidget_2</zorder>
+   <zorder>picture_display</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -222,7 +267,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>25</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
