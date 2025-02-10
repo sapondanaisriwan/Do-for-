@@ -12,7 +12,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     this->setWindowTitle("Flash Card");  // Set title
     this->setFixedSize(800, 600);  // set dufaulf window to 800*600
-    this->setWindowIcon(QIcon("D:/c.prog/Die-for-you/icon.png")); //set icon
+    this->setWindowIcon(QIcon(":/icon/icon.png")); // set icon from image in qt resources file
+
 }
 
 MainWindow::~MainWindow()
