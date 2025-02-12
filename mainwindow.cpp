@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "add.h"
 #include "addthepage.h"
 #include "edit.h"
 
