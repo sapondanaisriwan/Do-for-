@@ -1,6 +1,5 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
-
 #include <QMainWindow>
 
 QT_BEGIN_NAMESPACE
@@ -17,7 +16,20 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void on_pushButton_clicked();
+
+
+    void on_pushAdd_clicked();
+
+    void on_pushEdit_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
+
+
+
 #endif // MAINWINDOW_H
+
+
